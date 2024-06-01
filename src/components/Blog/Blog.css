@@ -1,0 +1,14 @@
+.blog-background-light {
+    background-color: #F3F3F3;
+}
+.blog-background-dark {
+    background-color: #313037;
+}
+.blog-container {
+    margin: 0 auto;
+    width: 1120px;
+}
+.posts-main-block {
+    margin: 0 auto;
+    display: flex;
+}

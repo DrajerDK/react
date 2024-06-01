@@ -1,0 +1,37 @@
+.footer-background-light {
+    background-color: #F3F3F3;
+}
+.footer-background-dark {
+    background-color: #313037;
+}
+
+.footer-container-light {
+    display: flex;
+    margin: 0 auto;
+    width: 1120px;
+    height: 92px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DADADA;
+}
+.footer-container-dark {
+    display: flex;
+    margin: 0 auto;
+    width: 1120px;
+    height: 92px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #8D8E97;
+}
+
+.footer-container__left-text {
+    font-size: 16px;
+    color: #8D8E97;
+    font-weight: 400;
+}
+
+.footer-container__right-text {
+    font-size: 16px;
+    color: #8D8E97;
+    font-weight: 400;
+}

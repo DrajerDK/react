@@ -1,0 +1,128 @@
+.header-container {
+    height: 84px;
+    width: 100%;
+    background-color: #2231AA;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-right: 1px solid #5360CD;
+}
+.menu__icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.menu-header {
+    width: 236px;
+    height: 83px;
+    background-color: #2231AA;
+    border-top: 1px solid #5360CD;
+
+}
+.menu-block {
+    /* margin-right: auto; */
+    width: 236px;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+
+}
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.menu-list__item {
+    font-size: 16px;
+    font-weight: 600;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+    cursor: pointer;
+}
+.menu-list__item:hover {
+    color: #2231AA;
+}
+.light-theme-button {
+    width: 50%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    cursor: pointer;
+}
+.light-theme-button__icon {
+    width: 24px;
+    height: 24px;
+    color: #313037;
+}
+.dark-theme-button {
+    width: 50%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8;
+    cursor: pointer;
+
+}
+.dark-theme-button__icon {
+    width: 24px;
+    height: 24px;
+    color: #313037;
+
+}
+.menu-block__log-out-button {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 83px;
+    font-weight: 600;
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+.header-right-block {
+    display: flex;
+}
+.header-right-block-search {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #5360CD;
+
+}
+.header-right-block-search__icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.header-right-block-profile {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #5360CD;
+
+}
+.header-right-block-profile__icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}

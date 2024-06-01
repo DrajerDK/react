@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-tabs {
+    width: 100%;
+    border-bottom: 1px solid #DADADA;
+    height: 48px;
+    padding-top: 8px;
+    /* padding: 10px 15px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+
+.container-tabs__tab {
+    height: 48px;
+    color: #313037;
+    font-size: 16px;
+    font-weight: 600;
+    width: 10px;
+    padding: 0px 40px 25px 40px;
+    border-bottom: 2px solid rgb(219, 219, 219);
+    margin-top: 8px;
+    /* margin-bottom: 0px; */
+    
+}
+
+.container-tabs__tab:hover {
+    cursor: pointer;
+    color:blue;
+}

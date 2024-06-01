@@ -1,0 +1,41 @@
+.dark-background {
+    width: 500px;
+    height: 500px;
+    color: white;
+    background-color: #313037;
+}
+.light-background {
+    width: 500px;
+    height: 500px;
+    background-color: #F3F3F3;
+}
+.light-theme-button {
+    width: 50%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    cursor: pointer;
+}
+.light-theme-button__icon {
+    width: 24px;
+    height: 24px;
+    color: #313037;
+}
+.dark-theme-button {
+    width: 50%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-top: 1px solid #E8E8E8;
+    border-left: 1px solid #E8E8E8;
+    cursor: pointer;
+
+}
+.dark-theme-button__icon {
+    width: 24px;
+    height: 24px;
+    color: #313037;
+
+}

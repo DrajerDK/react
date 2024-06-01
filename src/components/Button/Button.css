@@ -1,0 +1,20 @@
+/* .button-primary {
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.button-secondary {
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+} */
+.button {
+    background-color: #2231AA;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 56px;
+    width: 544px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
