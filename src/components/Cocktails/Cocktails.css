@@ -1,0 +1,25 @@
+/* Cocktails.css */
+.cocktails-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 столбца */
+    gap: 16px; /* Отступы между элементами */
+  }
+  
+  .cocktail-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .cocktail-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cocktail-item p {
+    padding: 8px;
+    font-size: 16px;
+  }
+  

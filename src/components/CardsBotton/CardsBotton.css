@@ -1,10 +1,10 @@
-.cards-botton-container {
+/* .cards-botton-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row;
     padding-top: 39px;
-}
+} */
 
 .cards-botton-item-light {
     width: 352px;

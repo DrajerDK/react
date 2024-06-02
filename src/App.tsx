@@ -14,6 +14,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddPost from './components/AddPost/AddPost';
 import Context from './Context/Context';
 import { ThemeContext } from './providers/ThemeContext';
+import Cocktails from './components/Cocktails/Cocktails';
 
 function App() {
   function buttonClickOne(): void {
@@ -33,9 +34,9 @@ function buttonClickTwo(): void {
     <Input inputName='Title' inputType='text' inputPlaceholder='Your email'></Input>
     <Input inputName='Title' inputType='password' inputPlaceholder="Your password"></Input> */}
     <Header></Header>
-    <Blog></Blog>
+    {/* <Blog></Blog>
     <SingUpForm></SingUpForm> 
-    <SingInForm></SingInForm>
+    <SingInForm></SingInForm> */}
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainPage></MainPage>}></Route>
@@ -49,7 +50,7 @@ function buttonClickTwo(): void {
         </Route>
       </Routes>
     </BrowserRouter>
-    <AddPost></AddPost>
+    {/* <AddPost></AddPost> */}
     <Footer></Footer>
 
     </ThemeContext>

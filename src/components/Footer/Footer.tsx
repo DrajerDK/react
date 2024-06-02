@@ -8,7 +8,7 @@ function Footer() {
         <>
             <div className={`footer-background-${color[0]}`}>
                 <div className={`footer-container-${color[0]}`}>
-                    <p className='footer-container__left-text'>©2022 Blogfolio</p>
+                    <p className='footer-container__left-text'>©2024 The Cocktail</p>
                     <p className='footer-container__right-text'>All rights reserved</p>
                 </div>
             </div>

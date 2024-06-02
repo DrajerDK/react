@@ -18,9 +18,7 @@ function Header() {
     return (  
         <>
             <section className="header-container">
-                <div className="menu" onClick={toggleMenu}>
-                    <IoMenu className='menu__icon'/>
-                </div>
+                <h2 className='header-container__title'>The Cocktail</h2>
                 <div className='header-right-block'>
                     <div className='header-right-block-search'>
                         <IoSearch className='header-right-block-search__icon'/>
@@ -30,28 +28,7 @@ function Header() {
                     </div>
                 </div>
             </section>
-            {isOpen && (
-                <nav className='menu-block'>
-                    <div className='menu-header'></div>
-                    <ul className='menu-list'>
-                        <li className='menu-list__item'>
-                            Home
-                        </li>
-                        <li className='menu-list__item'>
-                            Add post
-                        </li>
-                        <li className='menu-list__item'>
-                            Profile
-                        </li>
-                    </ul>
-                    <div className='theme-block'>
-                        {/* <button className='light-theme-button'><FiSun className='light-theme-button__icon'/></button>
-                        <button className='dark-theme-button'><FiMoon className='dark-theme-button__icon'/></button> */}
-                        <Context></Context>
-                    </div>
-                    <button className="menu-block__log-out-button">Log Out</button>
-                </nav>
-            )}
+            
         </>
     );
 }

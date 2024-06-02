@@ -14,13 +14,13 @@ function Blog() {
         <>
             <div className={`blog-background-${color[0]}` }>
                 <div className='blog-container'>
-                    <Title textOfTitle='Blog'></Title>
+                    {/* <Title textOfTitle='Cocktails'></Title> */}
                     <div className='posts-main-block'>
                         <div className='posts-left-block'>
-                            <CardMain></CardMain>
+                            {/* <CardMain></CardMain> */}
                             <CardsBotton></CardsBotton>
                         </div>
-                            <CardsSide></CardsSide>
+                            {/* <CardsSide></CardsSide> */}
                     </div>
                 </div>
             </div>

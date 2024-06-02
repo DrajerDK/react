@@ -1,11 +1,15 @@
 .header-container {
     height: 84px;
     width: 100%;
-    background-color: #2231AA;
+    background-color: #E8E8E8;
     display: flex;
     justify-content: space-between;
 }
-.menu {
+.header-container__title {
+    color: deeppink;
+    margin-left: 10%;
+}
+/* .menu {
     width: 84px;
     height: 84px;
     display: flex;
@@ -18,23 +22,23 @@
     width: 24px;
     height: 24px;
     color: white;
-}
-.menu-header {
+} */
+/* .menu-header {
     width: 236px;
     height: 83px;
     background-color: #2231AA;
     border-top: 1px solid #5360CD;
 
-}
-.menu-block {
+} */
+/* .menu-block {
     /* margin-right: auto; */
-    width: 236px;
+    /* width: 236px;
     position: absolute;
     z-index: 1000;
     background-color: white;
 
-}
-.menu-list {
+} */
+/* .menu-list {
     display: flex;
     list-style-type: none;
     flex-direction: column;
@@ -53,17 +57,17 @@
 }
 .menu-list__item:hover {
     color: #2231AA;
-}
-.light-theme-button {
+} */
+/* .light-theme-button {
     width: 50%;
     height: 80px;
     background-color: white;
     border: none;
     border-top: 1px solid #E8E8E8;
     border-right: 1px solid #E8E8E8;
-    cursor: pointer;
-}
-.light-theme-button__icon {
+    cursor: pointer; */
+/* } */
+/* .light-theme-button__icon {
     width: 24px;
     height: 24px;
     color: #313037;
@@ -77,14 +81,14 @@
     border-left: 1px solid #E8E8E8;
     cursor: pointer;
 
-}
-.dark-theme-button__icon {
+} */
+/* .dark-theme-button__icon {
     width: 24px;
     height: 24px;
     color: #313037;
 
-}
-.menu-block__log-out-button {
+} */
+/* .menu-block__log-out-button {
     width: 100%;
     font-size: 16px;
     border: none;
@@ -92,7 +96,7 @@
     font-weight: 600;
     background-color: #E8E8E8;
     cursor: pointer;
-}
+} */
 .header-right-block {
     display: flex;
 }
@@ -103,13 +107,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border-left: 1px solid #5360CD;
+    /* border-left: 1px solid #5360CD; */
 
 }
 .header-right-block-search__icon {
     width: 24px;
     height: 24px;
-    color: white;
+    color: deeppink;
 }
 .header-right-block-profile {
     width: 84px;
@@ -118,11 +122,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border-left: 1px solid #5360CD;
+    /* border-left: 1px solid #5360CD; */
 
 }
 .header-right-block-profile__icon {
     width: 24px;
     height: 24px;
-    color: white;
+    color: deeppink;
 }
