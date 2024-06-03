@@ -3,6 +3,8 @@ import { IoSearch } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { FiSun, FiMoon } from "react-icons/fi";
+import { FaRegStar } from "react-icons/fa6";
+
 import { Link } from 'react-router-dom';
 
 import React, { useState } from 'react';
@@ -23,8 +25,8 @@ function Header() {
                     <div className='header-right-block-search'>
                         <IoSearch className='header-right-block-search__icon'/>
                     </div>
-                    <div className='header-right-block-profile'>
-                        <CgProfile className='header-right-block-profile__icon'/>
+                    <div className='header-right-block-favorites'>
+                        <FaRegStar className='header-right-block-favorites__icon'/>
                     </div>
                 </div>
             </section>

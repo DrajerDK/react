@@ -115,7 +115,7 @@
     height: 24px;
     color: deeppink;
 }
-.header-right-block-profile {
+.header-right-block-favorites {
     width: 84px;
     height: 84px;
     display: flex;
@@ -125,7 +125,7 @@
     /* border-left: 1px solid #5360CD; */
 
 }
-.header-right-block-profile__icon {
+.header-right-block-favorites__icon {
     width: 24px;
     height: 24px;
     color: deeppink;

@@ -10,11 +10,14 @@ import CardMain from './components/CardMain/CardMain';
 import Footer from './components/Footer/Footer';
 import SingInForm from './components/SingInForm/SingInForm';
 import MainPage from './pages/MainPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddPost from './components/AddPost/AddPost';
 import Context from './Context/Context';
 import { ThemeContext } from './providers/ThemeContext';
 import Cocktails from './components/Cocktails/Cocktails';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Cocktails from './Cocktails';
+import CocktailDetails from './components/CocktailDetails/CocktailDetails';
 
 function App() {
   function buttonClickOne(): void {
@@ -37,19 +40,25 @@ function buttonClickTwo(): void {
     {/* <Blog></Blog>
     <SingUpForm></SingUpForm> 
     <SingInForm></SingInForm> */}
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path='/' element={<MainPage></MainPage>}></Route>
+        <Route path="/" element={<Blog />} />
+        <Route path="/cocktail/:id" element={<CocktailDetails />} />
+      </Routes>
+    </Router>
+    {/* <BrowserRouter> */}
+      {/* <Routes> */}
+        {/* <Route path='/' element={<MainPage></MainPage>}></Route> */}
         {/* <Route path='/posts' element={<PostsPage></PostsPage>}></Route>
         <Route path='/posts/:id' element={<Post></Post>}></Route> */}
-        <Route path='/add-post' element={<AddPost></AddPost>}>
+        {/* <Route path='/add-post' element={<AddPost></AddPost>}> */}
           {/* <Route path='/contact/address' element={<Address></Address>}></Route>
         </Route> */}
         {/* <Route path='*' element={<ErrorPage></ErrorPage>}> */}
 
-        </Route>
-      </Routes>
-    </BrowserRouter>
+        {/* </Route>
+      </Routes> */}
+    {/* </BrowserRouter> */}
     {/* <AddPost></AddPost> */}
     <Footer></Footer>
 

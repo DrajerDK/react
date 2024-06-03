@@ -1,0 +1,54 @@
+/* .cocktail-details {
+    padding: 20px;
+  }
+  
+  .cocktail-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cocktail-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cocktail-details li {
+    margin: 5px 0;
+  }
+   */
+
+   .cocktail-details {
+    padding: 20px;
+  }
+  
+  .cocktail-details img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .cocktail-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .cocktail-details p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cocktail-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .cocktail-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cocktail-details li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
