@@ -1,18 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { ICocktail } from '../../types/interfaces';
 import { useParams } from 'react-router-dom';
 import './CocktailDetails.css';
 
-interface CocktailDetails {
-  idDrink: string;
-  strDrink: string;
-  strDrinkThumb: string;
-  strInstructions: string;
-  [key: string]: any;
-}
-
 function CocktailDetails() {
   const { id } = useParams<{ id: string }>();
-  const [cocktail, setCocktail] = useState<CocktailDetails | null>(null);
+  const [cocktail, setCocktail] = useState<ICocktail | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -21,7 +14,7 @@ function CocktailDetails() {
       try {
         const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('Not found');
         }
         const data = await response.json();
         setCocktail(data.drinks[0]);
@@ -39,13 +32,12 @@ function CocktailDetails() {
     fetchCocktail();
   }, [id]);
 
-  // Если данные еще загружаются или произошла ошибка, отображаем Loading...
   if (loading || error) {
     return <div>Loading...</div>;
   }
 
   if (!cocktail) {
-    return null; // Ничего не отображаем, если коктейль не найден
+    return null;
   }
 
   const ingredients = [];

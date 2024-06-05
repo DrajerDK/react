@@ -35,3 +35,10 @@
     color: #8D8E97;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 1170px) {
+    .footer-container-light {
+        width: 95%;
+    }
+}

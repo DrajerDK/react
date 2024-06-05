@@ -1,16 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { ICocktail } from '../../types/interfaces';
+
 import './RandomCocktail.css';
 import Button from '../Button/Button';
 
-interface Cocktail {
-    idDrink: string;
-    strDrink: string;
-    strDrinkThumb: string;
-    strInstructions: string;
-    [key: string]: any;
-}
-
-const getIngredients = (cocktail: Cocktail) => {
+const getIngredients = (cocktail: ICocktail) => {
   const ingredients = [];
   for (let i = 1; i <= 15; i++) {
     const ingredient = cocktail[`strIngredient${i}`];
@@ -23,7 +17,7 @@ const getIngredients = (cocktail: Cocktail) => {
 };
 
 const RandomCocktail: React.FC = () => {
-  const [cocktail, setCocktail] = useState<Cocktail | null>(null);
+  const [cocktail, setCocktail] = useState<ICocktail | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 

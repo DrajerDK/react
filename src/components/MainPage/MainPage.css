@@ -1,0 +1,22 @@
+.main-page-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-page-item-light {
+    width: 352px;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 40px;
+}
+.main-page-item-dark {
+    width: 352px;
+    border-bottom: 1px solid #8D8E97;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1138px) {
+    .main-page-container {
+        max-width: 95%;
+    } 
+}
