@@ -3,7 +3,7 @@ import Blog from '../components/Blog/Blog';
 function MainPage() {
     return ( 
         <>
-            <Blog></Blog>
+            {/* <Blog></Blog> */}
         </>
     );
 }

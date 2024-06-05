@@ -1,54 +1,48 @@
-/* .cocktail-details {
-    padding: 20px;
-  }
-  
-  .cocktail-details img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .cocktail-details ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .cocktail-details li {
-    margin: 5px 0;
-  }
-   */
+.cocktail-details-container {
+  padding: 20px;
+  /* display: flex; */
+  margin: 0 auto;
+  width: 80%;
+}
 
-   .cocktail-details {
-    padding: 20px;
-  }
-  
-  .cocktail-details img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-  }
-  
-  .cocktail-details h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .cocktail-details p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-  }
-  
-  .cocktail-details h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .cocktail-details ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .cocktail-details li {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-  
+.cocktail-details-block {
+  display: flex;
+  margin: 0 auto;
+}
+.cocktail-details-container__title {
+  font-size: 32px;
+  color: #313037;
+}
+
+.cocktail-details-image-block__image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.ingredients-container {
+  margin-left: 5%;
+  width: 430px;  
+}
+
+.ingredients-container__instruction {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.ingredients-container__title {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #313037;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-list__item {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}

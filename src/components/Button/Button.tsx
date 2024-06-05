@@ -2,13 +2,13 @@ import { IButton } from '../../types/interfaces';
 import './Button.css';
 
 
-function Button({text}: IButton) {
+function Button({text, clickFunction}: IButton) {
 
 
 
     return ( 
         <>
-            <button className='button'>{text}</button>
+            <button onClick={clickFunction} className='button'>{text}</button>
         </>
     );
 }
