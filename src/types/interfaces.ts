@@ -1,31 +1,28 @@
-// export interface IButton {
-//     text: string,
-//     isDisabled: boolean,
-//     clickFunction: () => void,
-//     typeButton: string
-// }
+export interface ICocktail {
+    idDrink: string;
+    strDrink: string;
+    strDrinkThumb: string;
+    strInstructions: string;
+    [key: string]: any;
+}
 export interface IButton {
     text: string,
     // isDisabled: boolean,
-    // clickFunction: () => void,
+    clickFunction?: () => void
     // typeButton: string
-}
-
-export interface ITabs {
-    tabNameOne: string, 
-    tabNameTwoo: string, 
-    tabNameThree: string
 }
 
 export interface IInput {
     inputType: string;
     inputPlaceholder: string;
-    inputName: string;
     inputClass?: string
 }
-export interface ITextarea {
-    textareaType: string;
-    textareaPlaceholder: string;
-    textareaName: string;
-    textareaClass?: string
+
+export interface IInitialState {
+    cocktails: [] | ICocktail[],
+    oneRecipe: [] | ICocktail[],
+    favorites: [] | ICocktail[],
+    status: null | string,
+    error: null | string,
+    searchResultCocktails: ICocktail[] | null
 }

@@ -1,25 +1,33 @@
-/* Cocktails.css */
 .cocktails-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 столбца */
-    gap: 16px; /* Отступы между элементами */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
   }
   
   .cocktail-item {
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 0.5px solid #c9c9c9;
     overflow: hidden;
     text-align: center;
+    cursor: pointer;
   }
   
-  .cocktail-item img {
+  .cocktail-item__image {
     width: 100%;
     height: auto;
   }
   
-  .cocktail-item p {
-    padding: 8px;
+  .cocktail-item__name {
+    padding: 5px;
     font-size: 16px;
+    font-weight: 500;
   }
-  
+
+
+  @media screen and (max-width: 1138px) {
+    .cocktails-container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 95%;
+  }
+}
